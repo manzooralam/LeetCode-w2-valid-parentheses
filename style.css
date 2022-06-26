@@ -1,0 +1,50 @@
+#welcome,
+#sample,
+#buttons,
+#result {
+  position: relative;
+  margin: 1em;
+  box-sizing: border-box;
+}
+
+#sample,
+#buttons {
+  width: 25em;
+}
+
+#btn-msc,
+#btn-num {
+  position: relative;
+  width: 50%;
+  float: left;
+}
+
+#btn-num {
+  right: 0;
+}
+
+#btn-num button {
+  width: 3em;
+}
+
+button#equals {
+  width: 10.4em;
+}
+
+#input-a {
+  width: 100%;
+  height: 2em;
+  padding: 0;
+  font-size: 2em;
+  text-align: right;
+}
+
+#input-a::-webkit-outer-spin-button,
+#input-a::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+#buttons button {
+  padding: 1em;
+  margin: .2em;
+}
